@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/ec71336d78.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Password Generator by MichU</title>
+  </head>
+  <body>
+    <div id="all">
+      <h1>Password Generator</h1>
+      <div id="pswdiv">
+        <input
+          type="text"
+          id="generatedpassword"
+          readonly="true"
+          onfocus="this.blur();"
+        />
+        <div id="button-container">
+          <button id="copybtn" title="Copy">
+            <i class="fa-solid fa-copy"></i>
+          </button>
+          <button id="generatebtn" title="Generate">
+            <i class="fa-solid fa-arrows-rotate"></i>
+          </button>
+        </div>
+      </div>
+      <div id="settings">
+        <div class="setting">
+          Password length:
+          <input type="number" id="length" min="4" max="20" value="8" />
+        </div>
+        <div class="setting">
+          Lowercase letters: <input type="checkbox" id="lowercase" checked />
+        </div>
+        <div class="setting">
+          Uppercase letters: <input type="checkbox" id="uppercase" checked />
+        </div>
+        <div class="setting">
+          Numbers: <input type="checkbox" id="numbers" checked />
+        </div>
+        <div class="setting">
+          Symbols: <input type="checkbox" id="symbols" checked />
+        </div>
+      </div>
+
+      <h1>PIN Code Generator</h1>
+      <div id="pindiv">
+        <input type="text" id="generatedpin" />
+        <div id="button-container">
+          <button id="copypinbtn" title="Copy">
+            <i class="fa-solid fa-copy"></i>
+          </button>
+          <button id="generatepinbtn" title="Generate">
+            <i class="fa-solid fa-arrows-rotate"></i>
+          </button>
+        </div>
+      </div>
+      <div id="pinsettings">
+        <div class="setting">
+          Length:
+          <input type="number" id="pinlength" min="3" max="15" value="4" />
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
