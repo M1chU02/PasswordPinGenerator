@@ -78,6 +78,7 @@ function shufflePassword(finalPassword) {
     [charArray[i], charArray[j]] = [charArray[j], charArray[i]];
   }
 
+  // Convert the shuffled array back to a string
   return charArray.join("");
 }
 
