@@ -3,11 +3,11 @@
 Welcome to SecureGen, your Password & Pin Generator Web App!
 
 ## Key Features
-- 🔒 **Strong Passwords:** Create secure passwords tailored to your needs.
-- 🔢 **Customizable PINs:** Generate PINs with adjustable length and complexity.
-- 🌐 **Browser Access:** Use PassPinGen in any browser without downloads.
-- 📋 **Clipboard Copy:** Easily copy generated passwords and PINs.
-- 🚀 **Fast & Simple:** Minimal design for quick, efficient generation.
+🔒 **Strong Passwords:** Create secure passwords tailored to your needs.  
+🔢 **Customizable PINs:** Generate PINs with adjustable length and complexity.  
+🌐 **Browser Access:** Use PassPinGen in any browser without downloads.  
+📋 **Clipboard Copy:** Easily copy generated passwords and PINs.  
+🚀 **Fast & Simple:** Minimal design for quick, efficient generation.
 
 ## Getting Started
 To start using PassPinGen, follow these simple steps:
