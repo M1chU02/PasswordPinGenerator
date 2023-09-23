@@ -28,6 +28,9 @@ We have exciting plans for future releases of PassPinGen:
 
 Stay tuned for updates! 🚀
 
+## License
+SecureGen is licensed under the [MIT License](https://opensource.org/license/mit/). You are free to use, modify, and distribute it as you see fit.
+
 ---
 
 Enhance your online security with SecureGen! Generate strong passwords and PINs effortlessly. 🔐🚀
